@@ -357,7 +357,7 @@ background-color: aqua;
 }
 .information{
   position: relative;
-  margin-top: 100px;
+  margin-top: 30px;
   width: 90%;
   margin: 0 auto;
   display: grid;
@@ -367,6 +367,7 @@ background-color: aqua;
    gap: 30px;
 }
 .card{
+  margin-top: 30px;
   /* width: 30rem; */
   height: 700px;
 }
@@ -436,6 +437,7 @@ background-color: aqua;
   box-shadow: 1 8px 16px 0 rgba(0,0,0,.2), 0 
 }
 .news{
+  margin-top: 30px;
   width: 100%;
   height: 70vh;
   background-color: navy;

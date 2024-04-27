@@ -312,3 +312,31 @@ font-size: 12px;
       height: 400px;
     }
   }
+  @media only screen and (max-width: 1155px) {
+    .menu{
+      margin-left: auto;
+      /* background-color: brown; */
+      display: none;
+    }
+    .menu-bar{
+      display: none;
+    }
+    .sub-menubar{
+         display: flex;
+    }
+    .icon{
+      display: none;
+    }
+  }
+  @media only screen and (max-width: 1181px){
+    .information{
+      margin-top: 40px;
+    }
+    .post{
+      display: grid;
+      grid-template-columns: repeat(1,1fr);
+    }
+    .news{
+      margin-top: 100px;
+    }
+  }
