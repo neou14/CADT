@@ -136,15 +136,15 @@ font-size: 12px;
     /* background-color: yellowgreen; */
   }
   .box{
-    width: 400px;
+    width: 95%px;
     height: 400px;
   }
   .box1{
-    width: 400px;
+    width: 95%px;
     height: 400px;
   }
   .box2{
-    width: 400px;
+    width: 95%px;
     height: 400px;
   }
   
@@ -168,12 +168,35 @@ font-size: 12px;
     .sub-menubar{
          display: flex;
     }
-    .dropdownmenu a{
-      font-size: 10px;
-      padding: 3px 5px;
+    .digi
+    {
+      font-size: 2px;
+      display: none;
     }
-    #sub-menu3{
+    .dropdownmenu a{
+      /* background: #30a6e6; */
+      display: flex;
+      color:midnightblue;
+      display: block;
+      font-weight: bold;
       font-size: 10px;
+      padding: 2px 2px;
+      text-align: center;
+      text-decoration: none;
+      transition: all 0.25s ease;
+    }
+    li:hover ul#sub-menu3{
+      opacity: 1;
+      top: 30px;
+      visibility: visible;
+    }
+    #sub-menu3  li a{
+      margin: 0;
+      font-size: 7px;
+      float: none;
+      width:  auto;
+      text-align: left;
+      background-color: aliceblue;
     }
     .icon{
       width: auto;
@@ -300,16 +323,21 @@ font-size: 12px;
       /* background-color: yellowgreen; */
     }
     .box{
-      width: 400px;
-      height: 400px;
+      width: 100%;
+      height: auto;
     }
     .box1{
-      width: 400px;
-      height: 400px;
+      width: 100%;
+      height: auto;
     }
     .box2{
-      width: 400px;
-      height: 400px;
+      width: 100%;
+      height: auto;
+    }
+    #sub-menu3  li{
+      float: none;
+      width:  auto;
+      font-size: 5px;
     }
   }
   @media only screen and (max-width: 1155px) {
@@ -317,6 +345,10 @@ font-size: 12px;
       margin-left: auto;
       /* background-color: brown; */
       display: none;
+    }
+    .dropdownmenu a{
+      font-size: 12px;
+      padding: 1px 5px;
     }
     .menu-bar{
       display: none;
@@ -340,3 +372,35 @@ font-size: 12px;
       margin-top: 100px;
     }
   }
+  @media only screen and (max-width: 320px){
+    .sub-menubar{
+      display: flex;
+    }
+      .dropdownmenu a{
+        font-size: 9px;
+        padding: 1px 5px;
+      }
+      .box{
+        width: 100%;
+        height: auto;
+      }
+      .box1{
+        width: 100%;
+        height: auto;
+      }
+      .box2{
+        width: 100%;
+        height: auto;
+      }
+      .information1 >.box-post p{
+        font-size: 16px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:#ccc;
+        display: flex;
+      }
+      #sub-menu3  li{
+        float: none;
+        width:  auto;
+        font-size: 8px;
+      }
+ }
