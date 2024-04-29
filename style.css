@@ -208,7 +208,7 @@ li:hover ul#sub-menu3{
 #sub-menu3  li a{
   font-size: 14px;
   float: none;
-  width:  auto;
+  width:  200px;
   text-align: left;
   background-color: aliceblue;
 }
